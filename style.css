@@ -146,46 +146,14 @@
   .contactinfo{
     width: 70%;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.637);
+    
   }
-  /* Style inputs */
-input[type=text], select, textarea {
+  .contactinfo input {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    height: 50px;
+    background: #3b3737d3;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 5px;
   }
   
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  
-  
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-  /*contact styles*/
