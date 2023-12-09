@@ -12,6 +12,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     overflow: scroll;
+    
 }
 /*navbar styles*/
 .nav{
@@ -21,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
     background: rgba(37, 35, 35, 0.685);
+    
     top: 0;
     position: fixed;
 }
@@ -50,6 +52,7 @@
 .espace{
     width: 100%;
     height: 60px;
+    background-color: rgba(0, 0, 0, 0.637);
 }
 
 /*about styles*/
@@ -92,6 +95,8 @@
 }
 /*about styles*/
 
+
+/*services styles*/
 .services{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.637);
@@ -100,7 +105,87 @@
     margin: auto;
     width: min-content;
     padding: 10px;
+    
 }
 .servicesh h1{
     text-transform: uppercase;
 }
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1 {
+    background: #0aafbbaf;
+    border-radius: 0%;
+    transition: 0.5s;
+    width: 30%;
+  }
+  
+  .card1:hover {
+    transform: scale(1.02);
+  }
+  
+  .containe {
+    padding: 2px 16px;
+  }
+  /*services styles*/
+
+  /*contact styles*/
+  .contact{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+  }
+  .contacth{
+    margin: auto;
+    width: min-content;
+    padding: 10px;
+    
+  }
+  .contactinfo{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.637);
+  }
+  /* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  /*contact styles*/
